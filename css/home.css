@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fun2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    font-family:'Crimson Text', serif;
+}
+.bg_ca{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    border-bottom: 1px solid white ;
+    position: absolute;
+    width: 850px;
+    height: 70px;
+    left: 50%;
+    top: 5%;
+    margin-left: -425px;
+    
+}
+.navbar-toggler{
+    position: absolute;
+    top: 23px;
+    border: 2px solid white;   
+    border-radius: 40px;
+    
+}
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-top: -80px;
+    margin-left: -100px;
+}
+.dropright{
+    background-image: url("../img/test2.png");
+    position: absolute;
+    width: 40%;
+    font-size: 22px;
+    border-radius: 8px;
+    top: 72px;
+    text-align: center;
+    border: 3px solid rgba(134, 134, 134, 0.199);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+}
+.dropdown-menu{
+    
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.container-fluid{
+    position: absolute;
+    color: white;
+    width: 500px;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    margin-left: -250px;
+}
+.btn_que{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 0;
+    margin-left: 170px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.carousel{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+

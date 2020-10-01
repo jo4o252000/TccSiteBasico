@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fun2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Crimson Text', serif;
+}
+
+.bg_ca {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 850px;
+    height: 70px;
+    left: 50%;
+    top: 5%;
+    margin-left: -425px;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 23px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    margin-top: -80px;
+    margin-left: -100px;
+}
+
+.dropright {
+    background-image: url("../img/test2.png");
+    position: absolute;
+    width: 40%;
+    font-size: 22px;
+    border-radius: 8px;
+    top: 72px;
+    text-align: center;
+    border: 3px solid rgba(134, 134, 134, 0.199);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.div_prin {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    top: 200px;
+    left: 200px;
+    margin-top: -50px;
+}
+
+.card1 {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card2 {
+    position: absolute;
+    left: 42.5%;
+    top: 25%;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card3 {
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    text-align: justify;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card4 {
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card5 {
+    position: absolute;
+    left: 42.5%;
+    top: 80%;
+    color: white;
+    text-align: justify;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+.card6 {
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    text-align: justify;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.918);
+    border: 2px solid rgba(83, 83, 83, 0.87);
+}
+
+@media only screen and (max-height:700px) {
+    .card4 {
+        top: 95%;
+    }
+    .card5 {
+        top: 95%;
+    }
+    .card6 {
+        top: 95%;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .card4 {
+        top: 90%;
+    }
+    .card5 {
+        top: 90%;
+    }
+    .card6 {
+        top: 90%;
+    }
+}
+
+@media only screen and (max-width:1296px) {
+    .card3 {
+        top: 90%;
+        left: 25%;
+    }
+    .card1 {
+        left: 25%;
+    }
+    .card2 {
+        left: 58%;
+    }
+    .card4 {
+        left: 58%;
+    }
+    .card5 {
+        top: 156%;
+        left: 25%;
+    }
+    .card6 {
+        top: 156%;
+        left: 58%;
+    }
+}

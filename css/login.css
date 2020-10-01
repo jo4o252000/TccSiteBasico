@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fun2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    background-image: url("../img/test2.png");
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    border-radius: 10px;
+}
+
+.input_usu {
+    position: absolute;
+    width: 400px;
+    border-radius: 20px;
+    top: 42%;
+    left: 50%;
+    margin-left: -200px;
+    border: 3px solid rgba(134, 134, 134, 0.199);
+}
+
+.input_senha {
+    position: absolute;
+    width: 400px;
+    border-radius: 20px;
+    top: 52%;
+    left: 50%;
+    margin-left: -200px;
+    border: 3px solid rgba(134, 134, 134, 0.199);
+}
+
+.form-text {
+    position: absolute;
+    top: 48%;
+    left: 26%;
+    margin-left: -50px;
+}
+
+.btn-entrar {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 70%;
+    left: 50%;
+    margin-left: -75px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 3px solid rgba(134, 134, 134, 0.199);
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}
